@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// Import images for each blog entry
 import react from "../assets/React-Basics.avif";
 import events from "../assets/DOMEvents.avif";
 import status from "../assets/HTTP-Status-Codes.avif";
@@ -10,6 +11,7 @@ import hooks from "../assets/ReactHooks.avif";
 import canvas from "../assets/CanvasTag.avif";
 
 function Blogs() {
+  // Data for blog entries
   const blogs = [
     {
       id: 1,
@@ -49,6 +51,7 @@ function Blogs() {
     },
   ];
 
+  // Initialize AOS for animations
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);

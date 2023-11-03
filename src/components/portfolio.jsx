@@ -7,6 +7,7 @@ import profile from "../assets/profile_picture.jpg";
 
 function Portfolio() {
   useEffect(() => {
+    // Initialize AOS library with a fixed duration
     AOS.init({ duration: 2000 });
   }, []);
 

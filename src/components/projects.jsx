@@ -10,6 +10,7 @@ import tour from "../assets/Tours.png";
 import review from "../assets/Review.png";
 
 function Projects() {
+  // Data for project entries
   const portfolios = [
     {
       id: 1,
@@ -44,6 +45,7 @@ function Projects() {
   ];
 
   useEffect(() => {
+    // Initialize AOS library with a fixed duration
     AOS.init({ duration: 2000 });
   }, []);
 
@@ -72,7 +74,9 @@ function Projects() {
               <div className="hover:scale-110 duration-300">
                 <img className="h-40 rounded-md  " src={src} alt="" />
                 <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 opacity-0 transition-opacity flex justify-center items-center hover:opacity-100 ">
-                  <h2 className="text-white text-lg tracking-widest ">{text}</h2>
+                  <h2 className="text-white text-lg tracking-widest ">
+                    {text}
+                  </h2>
                 </div>
               </div>
               <div className="flex justify-center items-center">

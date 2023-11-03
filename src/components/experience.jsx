@@ -13,6 +13,7 @@ import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.webp";
 
 const Experience = () => {
+  // Data for tech entries
   const techs = [
     {
       id: 1,
@@ -72,6 +73,7 @@ const Experience = () => {
   ];
 
   useEffect(() => {
+    // Initialize AOS for animations with a fixed duration
     AOS.init({ duration: 2000 });
   }, []);
 

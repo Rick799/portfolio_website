@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// Import required icons for the sidenav
 import {
   AiOutlineDatabase,
   AiOutlineHome,
@@ -10,12 +11,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Sidenav() {
+  // State to control the visibility of the navigation
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
 
   useEffect(() => {
+    // Initialize AOS library with a fixed duration
     AOS.init({ duration: 2000 });
   }, []);
 

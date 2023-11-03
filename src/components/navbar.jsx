@@ -1,3 +1,4 @@
+// Import required icons for the navbar
 import {
   AiOutlineDatabase,
   AiOutlineHome,
@@ -5,6 +6,7 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { FaBlog } from "react-icons/fa";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
