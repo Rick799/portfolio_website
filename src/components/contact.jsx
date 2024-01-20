@@ -59,7 +59,7 @@ const Contact = () => {
             <button
               data-aos="zoom-out-down"
               type="submit"
-              className="w-full p-2 rounded-md bg-yellow-400 text-white text-lg font-bold border-2 border-yellow-500 hover:bg-white hover:text-slate-900 cursor-pointer duration-300"
+              className="w-full p-2 rounded-md bg-yellow-400 text-slate-900 text-lg font-bold border-2 border-yellow-500 hover:bg-white cursor-pointer duration-300"
             >
               Submit
             </button>

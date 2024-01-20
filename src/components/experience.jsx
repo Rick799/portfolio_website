@@ -79,7 +79,7 @@ const Experience = () => {
 
   return (
     <div id="experience">
-      <div className="py-10 text-center bg-gradient-to-b from-slate-900 to-black ">
+      <div className="pb-10 pt-28 text-center bg-gradient-to-b from-slate-900 to-black">
         <div className=" text-white w-full h-full max-w-6xl mx-auto flex flex-col justify-center">
           <div>
             <p className=" text-4xl p-2 font-bold border-b-4 border-gray-500 inline">

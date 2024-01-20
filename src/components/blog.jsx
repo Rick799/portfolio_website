@@ -61,7 +61,7 @@ function Blogs() {
       id="blogs"
       className="text-center bg-gradient-to-b from-slate-800 to-black w-full text-white md:h-screen"
     >
-      <div className=" p-4 mx-auto w-full h-full max-w-6xl flex flex-col justify-center ">
+      <div className=" p-4 mx-auto w-full h-full max-w-6xl flex flex-col justify-center">
         <div className="py-10">
           <p className="text-4xl p-2 font-bold border-b-4 border-gray-500 inline">
             Blogs
@@ -76,7 +76,7 @@ function Blogs() {
             <div
               data-aos="zoom-in-up"
               key={id}
-              className=" rounded-lg shadow-md shadow-gray-600 cursor-pointer"
+              className=" rounded-lg shadow-md shadow-gray-600 cursor-pointer hover:shadow-sm hover:shadow-slate-100"
             >
               <div className="hover:scale-110 duration-300">
                 <img className="rounded-md" src={src} alt="" />
@@ -89,7 +89,7 @@ function Blogs() {
               <div className="text-center">
                 <div data-aos="fade-up">
                   <button className="w-1/2 px-6 py-1 m-3 hover:scale-110 duration-300">
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noreferrer">
                       View
                     </a>
                   </button>
@@ -97,6 +97,20 @@ function Blogs() {
               </div>
             </div>
           ))}
+        </div>
+        <div
+          data-aos="slide-up"
+          className="mt-10 text-xl tracking-widest font-semibold"
+        >
+          <button className="hover:scale-105 duration-300">
+            <a
+              href="https://rajsarkar.hashnode.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              & more..
+            </a>
+          </button>
         </div>
       </div>
     </div>

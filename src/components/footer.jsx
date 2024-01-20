@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div
       data-aos=""
-      className="bg-gradient-to-b from-slate-800 to-black py-6 border-t border-slate-400 border-slate-900 tracking-widest "
+      className="bg-gradient-to-b from-slate-800 to-black py-6 border-t border-slate-200 tracking-widest "
     >
       <div className="text-xs sm:text-base text-center text-white flex justify-around">
         <h2>Copyright &copy; {copyrightDate}</h2>
